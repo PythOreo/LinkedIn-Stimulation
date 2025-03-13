@@ -1,0 +1,476 @@
+body{
+    background-color: #414a4c0e;
+    opacity: 1;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.297);
+}
+
+#postadded{
+    width: 100%;
+    font-size: xx-large;
+    padding: 20px;
+    color: #03C03C;
+    display: none;
+}
+
+textarea{
+    padding: 7px;
+}
+
+nav{
+    margin-top: 30px;
+    width: 100%;
+}
+
+nav div{
+    display: inline;
+}
+
+#lnav{
+    text-align: start;
+    margin-left: 35px;
+}
+
+#linkedin svg{
+    margin-bottom: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+input[type="search"]{
+    margin: 5px;
+    border: #414a4c54 1px solid;
+    font-family: Nunito;
+    font-size: 500;
+}
+
+input[type="search"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#rnav{
+    text-align: end;
+    display: inline;
+}
+
+.link{
+    color: #414A4C;
+    margin-left: 10px;
+    font-size: small;
+    word-spacing: -2px;
+}
+
+.link:hover{
+    color: #000;
+}
+
+#content{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+}
+
+main, aside{
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+}
+
+aside section{
+    background-color: white;
+    border: 1px solid #414a4c54;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Ltop h6{
+    margin-top: 40px;
+}
+
+#Ltop p{
+    font-weight: light;
+    font-size: small;
+    color: #414a4cd1;
+    margin-bottom: 5px;
+}
+
+#Ltop hr{
+    margin: 10;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 90%;
+}
+
+#profile{
+    position: relative;
+}
+
+#user{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #0D98BA;
+    border-radius: 50px;
+}
+
+#proinfo{
+    padding: 10px;
+}
+
+#proviews, #postviews{
+    text-align: start;
+}
+
+#proviewsno, #postviewsno{
+    color: #0070BB;
+}
+
+#premiumfeatures, #myitems{
+    text-align: start;
+    margin: 10px;
+}
+
+#premiumfeatures button, #myitems button{
+    font-weight: bold;
+    color: #414a4cd1;
+    font-size: small;
+}
+
+#Lbottom{
+    padding: 10px;
+    text-align: start;
+}
+
+#lbt{
+    margin-bottom: 20px;
+}
+
+#lbt span{
+    font-weight: bold;
+}
+
+#lbb span{
+    color: #0070BB;
+    font-weight: bold;
+}
+
+#lbt div, #lbb div{
+    margin-top: 5px;
+}
+
+#lbt p, #lbb p{
+    display: inline;
+    color: #414a4cd1;
+    font-size: small;
+}
+
+main section{
+    background-color: white;
+    border: 1px solid #414a4c54;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #414a4cd1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: start;
+}
+
+main div{
+    text-align: center;
+}
+
+main button{
+    font-size: small;
+    color: #414a4cd1;
+}
+
+#inputs{
+    display: none;
+    margin-top: 20px;
+}
+
+#upperinp{
+    margin-bottom: 10px;
+}
+
+#lowerinp{
+    width: 100%;
+}
+
+#lowerinp input{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#goback, #addpost{
+    margin-top: 10px;
+}
+
+#gobackbtn, #addpostbtn{
+    font-size: medium;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#between{
+    margin: 20px 0px;
+}
+
+#betweenbtns{
+    text-align: start;
+}
+
+#betweenbtns button{
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+#betweenbtns button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#betweenslct{
+    text-align: end;
+}
+
+select{
+    border: none;
+    background-color: transparent;
+}
+
+main #post{
+    text-align: start;
+}
+
+#information{
+    text-align: start;
+}
+
+#userimg{
+    display: inline-block;
+}
+
+#userimg svg{
+    background-color: #e76f51;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+#info{
+    display: inline-block;
+}
+
+#info div{
+    line-height: 15px;
+    margin-top: 3px;
+    text-align: start;
+}
+
+#name{
+    font-weight: 700;
+}
+
+#followers{
+    display: block;
+}
+
+#info svg{
+    margin-bottom: 3px;
+}
+
+#article span{
+    font-size: small;
+}
+
+#follow{
+    text-align: end;
+}
+
+#followblogger{
+    color: #0070BB;
+}
+
+#topic{
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.card{
+    width: 100%;
+}
+
+.card-body{
+    text-align: start;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.card p{
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+#dthreedots{
+    text-align: start;
+}
+
+#dthreedots span{
+    font-size: 400;
+    font-weight: bold;
+}
+
+#addcommentarea{
+    margin-top: 10px;
+    display: none;
+}
+
+#btns button{
+    font-size: medium;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#commentsblock{
+    display: none;
+}
+
+#finalcom{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+#comments{
+    text-align: end;
+    margin-top: 10px;
+}
+
+#comments button{
+    font-size: medium;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#reactions{
+    text-align: start;
+    margin: 10px 0px;
+}
+
+#reactions button{
+    display: inline-block;
+    margin-right: 35px;
+}
+#reaction{
+    text-align: start;
+    margin: 10px 0px;
+}
+
+#reaction button{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#delete{
+    align-items: end;
+    margin-top: 10px;
+}
+
+#delIcon{
+    cursor: pointer;
+}
+
+#right section{
+    text-align: start;
+    padding: 10px;
+    font-size: small;
+}
+
+#right li{
+    font-weight: bold;
+}
+
+#right li::marker{
+    color: #0070BB;
+}
+
+#rthead{
+    color: #0070BB;
+    font-weight: bold;
+    font-size: medium;
+}
+
+ul{
+    padding: 10px 0px 0px 20px;
+}
+
+ul span{
+    font-size: 12px;
+    color: #414a4cc9;
+}
+
+#rbhead{
+    color: #414A4C;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.whotoknow svg{
+    margin-top: 10px;
+}
+
+.whotoknow span{
+    padding: 0px;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.person{
+    line-height: 20px;
+    margin-top: 3px;
+}
+
+.pername{
+    font-weight: 900;
+}
+
+.job{
+    display: block;
+}
+
+.followperson{
+    border: 1px solid #0070BB;
+    border-radius: 30px;
+    margin: 20px 20px 0px 0px;
+    color: #0070BB;
+}
+
+#rbb{
+    text-align: center;
+}
+
+#seeall{
+    color: #0070BB;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#morepeople{
+    display: none;
+}
